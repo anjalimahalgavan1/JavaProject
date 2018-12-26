@@ -1,0 +1,27 @@
+
+This application is created using Spring tool suite.
+Database used is NoSql - MongoDB
+
+Dependencies - Web
+
+This application is created to store user information and perform CRUD operation using REST, below are the URL details.
+
+App - SpringBootWithMongoDB\SpringBootRESTApplication
+
+REST API:
+POST METHOD - http://localhost:8080/createUser?firstName=Ada&lastName=owen&age=65
+GET METHOD  - http://localhost:8080/getAll
+GET METHOD  - http://localhost:8080/getByUserFirstName?firstName=Simantha
+PUT METHOD  - http://localhost:8080/updateUser?firstName=Amily&lastName=owen&age=65  -- Update the existing record by firstName
+DELETE METHOD - http://localhost:8080/deleteUserByFirstName?firstName=Simantha
+DELETE METHOD - http://localhost:8080/deleteAll
+
+Database - MongodB
+To view records in MongodB use below commands:
+	-->show dbs
+	-->use test
+	-->db.sbPersonInfo.find() =>this will show all records saved in mongodb for sbPersonInfo
+	
+
+
+
